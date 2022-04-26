@@ -1,0 +1,45 @@
+html {
+    font-size: 100%;
+}
+
+h1 {
+    font-size: 5.8rem;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;    
+    letter-spacing: 1px;
+
+}
+
+h2 {
+    font-size: 5.45rem;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;    
+    letter-spacing: 1px;
+    text-shadow: -5px 5px 0px rgba(219, 169, 197, 0.7), -10px 10px 0px rgba(208, 203, 226, 0.7);
+}
+
+h3 {
+    font-size: 2rem;
+    font-family: 'Inter', sans-serif;
+    letter-spacing: 1px;
+    font-weight: lighter;
+}
+
+h4 {
+    // font-size: 9rem;
+    // font-family: 'Doppelganger', serif;
+    // letter-spacing: 7px;
+    // font-weight: lighter;
+    // text-transform: uppercase;
+    font-size: 6rem;
+    font-family: 'Roboto', sans-serif; 
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+p,
+a {
+    font-family: 'Harmattan', sans-serif;
+    font-size: 1.2rem;
+}
+

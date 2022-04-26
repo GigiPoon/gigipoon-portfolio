@@ -7,9 +7,15 @@ h1 {
 }
 
 .wrapper {
-    width: 85%;
-    max-width: 1200px;
+    width: 90%;
+    max-width: 1400px;
     margin: 0 auto;
+}
+
+body {
+    max-width: 2000px;
+    margin: 0 auto;
+    overflow-x: hidden;
 }
 
 img {
@@ -23,4 +29,9 @@ ul {
 a {
     text-decoration: none;
     cursor: pointer;
+    color: inherit;
+}
+
+i {
+    font-size: 3rem;
 }

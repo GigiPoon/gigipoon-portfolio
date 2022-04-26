@@ -281,7 +281,7 @@ h2 {
 
 h3 {
   font-size: 2rem;
-  font-family: "Inter", sans-serif;
+  font-family: "Lora", serif;
   letter-spacing: 1px;
   font-weight: lighter;
 }
@@ -293,10 +293,17 @@ h4 {
   text-transform: uppercase;
 }
 
-p,
-a {
-  font-family: "Harmattan", sans-serif;
+p {
+  font-family: "Hind Madurai", sans-serif;
   font-size: 1.2rem;
+  line-height: 2rem;
+}
+
+a {
+  font-family: "Lora", serif;
+}
+a:hover {
+  color: #FFFFFF;
 }
 
 *,
@@ -592,6 +599,7 @@ header {
 }
 .skillsFlex p {
   font-size: 1rem;
+  font-family: "Lora", serif;
 }
 
 .one, .three {
@@ -844,6 +852,8 @@ h3 .typedText {
   margin: 30px;
 }
 .navBar li a {
+  font-family: "Hind Madurai", sans-serif;
+  font-size: 3rem;
   color: white;
 }
 

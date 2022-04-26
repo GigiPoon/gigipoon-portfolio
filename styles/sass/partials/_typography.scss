@@ -20,7 +20,7 @@ h2 {
 
 h3 {
     font-size: 2rem;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Lora', serif;
     letter-spacing: 1px;
     font-weight: lighter;
 }
@@ -37,9 +37,15 @@ h4 {
     text-transform: uppercase;
 }
 
-p,
-a {
-    font-family: 'Harmattan', sans-serif;
+p {
+    font-family: 'Hind Madurai', sans-serif;
     font-size: 1.2rem;
+    line-height: 2rem;
 }
 
+a {
+    font-family: 'Lora', serif;
+    &:hover {
+        color: $white;
+    }
+}

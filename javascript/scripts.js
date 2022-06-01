@@ -48,16 +48,25 @@ document.addEventListener("DOMContentLoaded", function() {
     setTimeout(type, newTextDelay + 150);
 })
 
+//nav circle click
 const hamburger = document.querySelector('.hamburger');
 const navBar = document.querySelector('.navBar');
+const links = document.querySelector('.links')
 
 hamburger.addEventListener('click', () => {
     navBar.classList.toggle('open');
 })
 
+//social media icons click
 const circle = document.querySelector('.circle6');
 const socialNavBar = document.querySelector('.mainSocialIcons')
 
 circle.addEventListener('click', () => {
     socialNavBar.classList.toggle('open');
 })
+
+
+//closing navbar on link
+document.querySelectorAll('.headerLinks').forEach(link => link.addEventListener('click', () => {
+    navBar.classList.remove("open");
+}))

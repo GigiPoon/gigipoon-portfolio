@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: $sand;
     color: #3c3e53;
@@ -29,7 +33,7 @@ header {
             display: flex;
             justify-content: center;
             align-items: center;
-            color: white;
+            color: $sand;
         }
     }
 }
@@ -45,18 +49,17 @@ header {
     bottom: 10%;
     right: 2%;
     cursor: pointer;
-    &::before {
-        content: '';
-        background-image: url(../assets/ArrowPointDownRight.svg);
-        background-repeat: no-repeat;
-        width: 128px;
-        height: 143px;
-        position: absolute;
-        top: -282px;
-        left: -146px;
-        background-size: 85px;
-
-    }
+    // &::before {
+    //     content: '';
+    //     background-image: url(../assets/ArrowPointDownRight.svg);
+    //     background-repeat: no-repeat;
+    //     width: 128px;
+    //     height: 143px;
+    //     position: absolute;
+    //     top: -282px;
+    //     left: -146px;
+    //     background-size: 85px;
+    // }
 }
 
 .aboutContainer {
@@ -81,6 +84,11 @@ header {
         z-index: 10;
     }
 
+}
+
+h4 {
+    width: 80%;
+    margin: 0 auto;
 }
 
 .skills {
@@ -202,12 +210,12 @@ header {
                 content: '';
                 background-image: url(../assets/newCircleYellowThick.png);
                 background-repeat: no-repeat;
-                width: 140px;
-                height: 50px;
+                width: 150px;
+                height: 54px;
                 position: absolute;
-                top: -15px;
-                left: -25px;
-                background-size: 135px;
+                top: -18px;
+                left: -20px;
+                background-size: 150px;
             }
         }
     }
@@ -268,6 +276,10 @@ footer {
     i {
         font-size: 2.5rem;
         margin: 20px 0;
+        &:hover,
+        &:focus {
+            font-size: 3rem;
+        }
     }
 }
 
@@ -386,7 +398,6 @@ h3 {
     border-radius: 50%;
     display: block;
     position: fixed;
-    z-index: -10;
     top: calc(12vh - 50px);
     left: calc(85vw - 50px);
     z-index: 30;
@@ -419,7 +430,7 @@ h3 {
         a {
             font-family: 'Hind Madurai', sans-serif;
             font-size: 3rem;
-            color: white;
+            color: $sand;
         }
     }
 }
@@ -427,7 +438,7 @@ h3 {
 .line {
     width: 30px;
     height: 3px;
-    background: white;
+    background: $sand;
     margin: 3px auto;
     display: block;
 

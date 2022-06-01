@@ -42,7 +42,10 @@ p {
 
 a {
     font-family: 'Lora', serif;
-    &:hover {
-        color: $white;
+    &:hover,
+    &:focus {
+        color: $darkGrey;
+        letter-spacing: 0.6px;
+        font-weight: bold;
     }
 }

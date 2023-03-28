@@ -497,7 +497,7 @@ h4 {
   padding: 50px;
 }
 .leftSide img {
-  border-radius: 40%;
+  border-radius: 30%;
   width: 300px;
   height: auto;
 }
@@ -928,46 +928,36 @@ button:hover, button:focus {
   header {
     margin-bottom: 100px;
   }
-
   .proContainer {
     margin-top: 0;
   }
-
   .leftSide {
     padding: 25px;
   }
-
   .projectContainer .imgContainerOne {
     top: 50px;
     left: 39%;
     width: 400px;
   }
-
   h2 {
     font-size: 5rem;
   }
-
   h4 {
     font-size: 4rem;
     width: 100%;
   }
-
   p {
     font-size: 1.1rem;
   }
-
   .rightSide {
     padding: 25px;
   }
-
   .aboutContainer {
     height: 750px;
   }
-
   .infoFlexContainer {
     width: 70%;
   }
-
   form {
     width: 60%;
   }
@@ -977,7 +967,6 @@ button:hover, button:focus {
     font-size: 3rem;
     font-weight: bold;
   }
-
   .mainSocialIcons li {
     padding: 5px;
   }
@@ -986,27 +975,22 @@ button:hover, button:focus {
     height: 40px;
     font-size: 1.25rem;
   }
-
   .circle6::before {
     top: -128px;
   }
-
   .aboutFlex {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
   }
-
   .rightSide {
     width: 90%;
   }
-
   .aboutContainer {
     height: 1000px;
     border-radius: 40% 40% 0 0;
   }
-
   .projectContainer {
     border-radius: 40% 40% 0 0;
     padding: 220px 0 150px 0;
@@ -1023,33 +1007,26 @@ button:hover, button:focus {
   .projectContainer .skillsFlex {
     width: 90%;
   }
-
   .backgroundImgContainer {
     height: 950px;
   }
-
   .skillContainer {
     width: 100%;
   }
-
   .circle4 {
     display: none;
   }
-
   .circle3 {
     width: 250px;
     height: 250px;
   }
-
   .circle8 {
     width: 150px;
     height: 150px;
   }
-
   .socialIcons {
     width: 60%;
   }
-
   form {
     width: 70%;
   }
@@ -1061,7 +1038,6 @@ button:hover, button:focus {
     top: calc(7vh - 35px);
     left: calc(85vw - 35px);
   }
-
   .navBar {
     -webkit-clip-path: circle(0 at 85vw 7vh);
             clip-path: circle(0 at 85vw 7vh);
@@ -1073,11 +1049,9 @@ button:hover, button:focus {
   .navBar li a {
     font-size: 2rem;
   }
-
   h1 {
     font-size: 4.8rem;
   }
-
   h3 {
     font-size: 1.5rem;
   }
@@ -1085,24 +1059,19 @@ button:hover, button:focus {
     -webkit-box-shadow: none;
             box-shadow: none;
   }
-
   .proContainer h2 {
     padding: 0 0 130px 0;
   }
-
   .aboutContainer {
     height: 940px;
     border-radius: 120px 120px 0 0;
   }
-
   .leftSide img {
     width: 245px;
   }
-
   .rightSide {
     padding: 0;
   }
-
   .projectContainer {
     padding: 150px 0;
     border-radius: 120px 120px 0 0;
@@ -1114,21 +1083,17 @@ button:hover, button:focus {
   .projectContainer .imgContainerOne {
     display: none;
   }
-
   .backgroundImgContainer {
     height: 850px;
   }
-
   h4 {
     font-size: 2rem;
     font-weight: bold;
     letter-spacing: 1px;
   }
-
   h2 {
     font-size: 3rem;
   }
-
   .skillContainer {
     width: 100%;
   }
@@ -1142,38 +1107,30 @@ button:hover, button:focus {
     width: 48px;
     height: 58px;
   }
-
   .infoFlexContainer {
     width: 88%;
     padding-top: 10px;
   }
-
   .skills h2 {
     top: -80px;
   }
-
   .links a:first-child::after {
     left: -25px;
   }
-
   .socialIcons {
     width: 90%;
   }
-
   .circle3 {
     width: 175px;
     height: 175px;
   }
-
   .circle5 {
     width: 275px;
     height: 275px;
   }
-
   p {
     font-size: 1rem;
   }
-
   form {
     width: 100%;
   }
